@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 120vh;
+}
+/*------------- header--------------- */
+
+header {
+  height: 10vh;
+
+  background-color: lightcoral;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+nav {
+  width: 100%;
+  height: 2.5rem;
+
+  background-color: lightseagreen;
+  text-align: right;
+  padding: 0.4rem;
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+nav li {
+  font-size: 1rem;
+  display: inline-block;
+  border: solid blue;
+  padding: 0.1rem 1rem;
+  margin-right: 0.5rem;
+}
+/* ------------main----------section1--------------- */
+main {
+  height: 120vh;
+}
+section {
+  height: 30%;
+  background-color: lightgreen;
+  padding: 0.5rem;
+
+  margin: 1.5rem auto;
+  width: 80%;
+}
+
+.box {
+  width: 25rem;
+  height: 18.75rem;
+
+  display: inline-block;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+  float: right;
+}
+
+/* form-----section2--------------- */
+
+form {
+  width: 15rem;
+  height: 12rem;
+  border: red solid;
+  text-align: center;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+.sex {
+  border: solid;
+  height: 3rem;
+  width: 4rem;
+  display: inline-block;
+}
+form label {
+  display: block;
+}
+.checkbox {
+  width: 1.2rem;
+}
+.textbox input {
+  width: 12.5rem;
+  height: 2rem;
+}
+button {
+  width: 12.5rem;
+  height: 2rem;
+  margin-top: 2rem;
+}
+/* background section3 */
+
+.fox {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(216, 10, 10, 0.4)),
+    url(./images/fox.jpg) center/cover;
+
+  backdrop-filter: brightness(60%);
+}
+
+/* --------footer----------- */
+footer {
+  background-color: lightcoral;
+  height: 10rem;
+  padding-top: 2rem;
+}
+
+img {
+  width: 2rem;
+  height: 2rem;
+}
+.image {
+  width: 5rem;
+}
+.redbox {
+  width: 5rem;
+  height: 3rem;
+  background-color: red;
+}
+.textli li {
+  list-style-type: none;
+}
+
+.textli {
+  width: 8rem;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+}
+.textli a {
+  text-decoration: none;
+}
+.red2 {
+  width: 6rem;
+  height: 6rem;
+
+  float: right;
+}
+.foot {
+  display: inline-block;
+}
